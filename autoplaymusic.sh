@@ -4,10 +4,11 @@ b='\033[1m'
 
 clear
 figlet Hai Welcome To My Script Music | lolcat
+sleep 2
 clear
 
 echo "✿──────────────────────✿"
-echo "Scripts By MrTakil"
+echo "Scripts By MrTakil (Faris)"
 echo "Script New"
 echo "Created Date : 6 Juni 2019"
 echo "Versi : 1.0"
