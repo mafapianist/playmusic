@@ -15,6 +15,7 @@ termux-setup-storage
 pkg install ruby
 gem install lolcat
 pkg install figlet
+pkg install mpv
 clear
 
 echo "✿──────────────────────────✿" | lolcat
@@ -66,19 +67,19 @@ echo "Pilih Nomor Yang di Sediakan"
 read -p "[MrTakil@Root]>" pil;
 
 case $pil in
-1) pkg install mpv
+1) echo "Music Download Akan Di Mulai"
 mpv /sdcard/Download
 echo "Music Sudah Selesai"
 
 ;;
 
-2) pkg install mpv
+2) echo "Music Vidmate Akan Dimulai"
 mpv /sdcard/Vidmate/Download
 echo "Music Sudah Selesai"
 
 ;;
 
-3) pkg install mpv
+3) echo "Music UCDownloads Akan Di Mulai"
 mpv /sdcard/UCDownloads
 echo "Music Sudah Selesai"
 
