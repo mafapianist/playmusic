@@ -16,6 +16,9 @@ pkg install ruby
 gem install lolcat
 pkg install figlet
 pkg install mpv
+pkg install python
+pip install mps_youtube
+pip install youtube_dl
 clear
 
 echo "✿──────────────────────────✿" | lolcat
@@ -61,7 +64,9 @@ echo -e "2.Music Vidmate"
 echo "✿─────────────────✿" | lolcat
 echo -e "3.Music UCDownload"
 echo "✿─────────────────✿" | lolcat
-echo -e "4.Exit"
+echo -e "4.Music Youtube"
+echo "✿─────────────────✿" | lolcat
+echo -e "5.Exit"
 echo "✿─────────────────✿" | lolcat
 echo "Pilih Nomor Yang di Sediakan"
 read -p "[MrTakil@Root]>" pil;
@@ -85,7 +90,13 @@ echo "Music Sudah Selesai"
 
 ;;
 
-4) echo "Subscribe Channel shc - faris"
+4) echo "Cara Memakai Nya search nama musik"
+mpsyt
+echo "Musik Sudah Selesai"
+
+;;
+
+5) echo "Subscribe Channel shc - faris"
 sleep 1
 echo "dan follow Instagram saya faris_nepatas007"
 sleep 1
