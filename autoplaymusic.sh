@@ -64,9 +64,11 @@ echo -e "2.Music Vidmate"
 echo "✿─────────────────✿" | lolcat
 echo -e "3.Music UCDownload"
 echo "✿─────────────────✿" | lolcat
-echo -e "4.Music Youtube"
+echo -e "4.Music Whatsapp"
 echo "✿─────────────────✿" | lolcat
-echo -e "5.Exit"
+echo -e "5.Music Youtube"
+echo "✿─────────────────✿" | lolcat
+echo -e "6.Exit"
 echo "✿─────────────────✿" | lolcat
 echo "Pilih Nomor Yang di Sediakan"
 read -p "[MrTakil@Root]>" pil;
@@ -90,13 +92,19 @@ echo "Music Sudah Selesai"
 
 ;;
 
-4) echo "Cara Memakai Nya search nama musik"
+4) echo "Music WhatsApp Akan Di Mulai"
+mpv /sdcard/WhatsApp/Media
+echo "Music Sudah Selesai"
+
+;;
+
+5) echo "Cara Memakai Nya search nama musik"
 mpsyt
 echo "Musik Sudah Selesai"
 
 ;;
 
-5) echo "Subscribe Channel shc - faris"
+6) echo "Subscribe Channel shc - faris"
 sleep 1
 echo "dan follow Instagram saya faris_nepatas007"
 sleep 1
