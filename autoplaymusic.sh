@@ -27,7 +27,7 @@ echo "Script New"
 echo "Created Date : 6 Juni 2019"
 echo "Versi : 1.1"
 echo "Whatsaap : 089657737111"
-echo "Facebook : Shc - Faris"
+echo "Facebook : Muhammad Faristanto Salman"
 echo "Instagram : faris_nepatas007"
 echo "Youtube : shc - faris"
 echo "✿──────────────────────────✿" | lolcat
